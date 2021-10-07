@@ -38,3 +38,35 @@ h4 {
 body {
     background-image: url(../assets/images/R.png);
 }   
+
+.d1 {
+    width: 576px;
+    height: 432px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+    animation: fondu 15s ease-in-out infinite both;
+}
+
+.d2 {
+    width: 100px;
+    height: 0px;
+    padding-top: 75%;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+}
+
+.conteneur {
+    max-width: 576px;
+    margin: 50px auto;
+}
+
+@keyframes fondu {
+    0% {background-image: url(https://www.musikam.fr/wp-content/uploads/2021/06/espace-concert-1280x853.jpg);}
+    33.33%  {background-image: url(https://www.musikam.fr/wp-content/uploads/2021/05/as10986-modifierhtdef.jpg);}
+    66.67%  {background-image: url(https://www.musikam.fr/wp-content/uploads/2021/05/as10845-hdr-modifierhtdef-600x435.jpg);}
+    100% {background-image: url(https://www.rennes-infos-autrement.fr/wp-content/uploads/Bar-karaoke-750x1000.jpg);}
+}
