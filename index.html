@@ -6,24 +6,49 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/index.css">
         <title>Mon site Demo</title>
     </head>
 
     <body>
-        <h1>Moi et la musique</h1>
-        <h4>Top 3 de mes artistes préférés</h4>
-        <img height="300" width="200" src="https://p1.storage.canalblog.com/28/48/118811/120057120_o.jpg">
-        <img height="300" width="200" src="https://townsquare.media/site/623/files/2017/04/GettyImages-663893018.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89">
-        <img height="300" width="200" src="https://s3.amazonaws.com/zweb-s3.uploads/ez2/wp-content/uploads/2020/01/GettyImages-504665314.jpg">
-        <h4>Top 3 de mes chansons préférées</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/KEjJG6sWDtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ijyX_32WW9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/tKEE9KegRyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <h4>Mes concerts de prévu</h4>
-        <a href="https://leliberte.fr/spectacles/francis-cabrel/">Concert Francis Cabrel</a>
-        <a href="https://legrandlogis-bruz.fr/spectacle/will-barber/">Concert Will Barber</a>
-        <a href="https://www.alentoor.fr/maure-de-bretagne/agenda/2780524-kaz-hawkins-aymeric-maini">Concert Kaz Hawkins</a>
-        <h4>Les lieux où j'aime bien me retrouver pour faire ou écouter de la musique</h4>
+        <h1 id="titre">La musique et moi</h1>
+
+        <div id="menu">
+            <ol>
+                <li><a href="#artistesPreferes">Top 3 de mes artistes préférés</a></li>
+                <li><a href="#chansonsPreferees">Top 3 de mes chansons préférées</a></li>
+                <li><a href="#concertsPrevus">Mes concerts de prévu</a></li>
+                <li><a href="#lieuxMusique">Les lieux où j'aime bien me retrouver pour faire ou écouter de la musique</a></li>
+            </ol>
+        </div>
+
+        <h4  id="artistesPreferes">Top 3 de mes artistes préférés</h4>
+        <div id="top3Artistes">
+            <img height="300" width="200" src="https://p1.storage.canalblog.com/28/48/118811/120057120_o.jpg">
+            <img height="300" width="200" src="https://townsquare.media/site/623/files/2017/04/GettyImages-663893018.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89">
+            <img height="300" width="200" src="https://s3.amazonaws.com/zweb-s3.uploads/ez2/wp-content/uploads/2020/01/GettyImages-504665314.jpg">
+        </div>
+        <div class="artistesPreferesTexte">
+            <h5>Axel Bauer</h5>
+            <h5>Chris Stapleton</h5>
+            <h5>James Taylor</h5>
+        </div>
+
+        <h4 id="chansonsPreferees">Top 3 de mes chansons préférées</h4>
+        <div id="chansonsPrefereesAudio">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KEjJG6sWDtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ijyX_32WW9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8701qHMbpwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <h4 id="concertsPrevus">Mes concerts de prévu</h4>
+        <div id="concertsPrevusProchainement">
+            <a href="https://leliberte.fr/spectacles/francis-cabrel/">Concert Francis Cabrel</a>
+            <a href="https://legrandlogis-bruz.fr/spectacle/will-barber/">Concert Will Barber</a>
+            <a href="https://www.alentoor.fr/maure-de-bretagne/agenda/2780524-kaz-hawkins-aymeric-maini">Concert Kaz Hawkins</a>
+        </div>
+
+        <h4 id="lieuxMusique">Les lieux où j'aime bien me retrouver pour faire ou écouter de la musique (a compléter)</h4>
     </body>
 
 </html>

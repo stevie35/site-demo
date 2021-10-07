@@ -1,0 +1,40 @@
+#titre {
+    text-align: center;
+    color: maroon;
+    text-decoration: underline;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    text-align: center;
+    color: maroon;
+    text-decoration:underline;
+}
+
+#top3Artistes {
+    display: flex;
+    justify-content: space-around;
+}
+
+#concertsPrevusProchainement {
+    display: flex;
+    justify-content: space-around;
+}
+
+#chansonsPrefereesAudio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.artistesPreferesTexte {
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    background-image: url(../assets/images/R.png);
+}   
